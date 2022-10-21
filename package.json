@@ -1,0 +1,33 @@
+{
+  "name": "4-module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anna-Dominika1/4-module.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anna-Dominika1/4-module/issues"
+  },
+  "homepage": "https://github.com/Anna-Dominika1/4-module#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "helmet": "^6.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.5",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.0",
+    "volleyball": "^1.5.1",
+    "yup": "^0.32.11"
+  }
+}
