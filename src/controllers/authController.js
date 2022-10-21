@@ -70,13 +70,11 @@ exports.login = async (req, res, next) => {
 };
 exports.getProfile = async (req, res, next) => {
 
-  
-    try {
-        res.json(req.user);
-      } catch (error) {
-        next(error);
-      }
-
+  try {
+    res.json(req.user);
+  } catch (error) {
+    next(error);
+  }
 
 };
 
